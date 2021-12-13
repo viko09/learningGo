@@ -1,0 +1,54 @@
+Go (GOLANG)
+created by. Google
+
+Strong typing language: Cannot change a type of variable unless you change it
+Go allows parallelism, with C++ core but with better syntax and friendly, it's a compiled language
+
+Go Conventions:
+
+Easy to learn
+Go functions can return more than one value
+Not a OOP language
+Methods and functions are determined with camel case
+
+# --------------------------------------------------------------- #
+Every filename.go file starts with "package filename"
+
+importing packages:
+    import (
+    "---"
+    "---"
+    "---"
+    )
+fmt is the most used package
+
+func main(){
+
+}
+# --------------------------------------------------------------- #
+Variables on Go
+
+string, booleans, numerical
+How to declare variables?
+
+var number int (Outside our functions, global)
+var stat bool
+var text string
+float32 float64
+
+var number2 int (Inside our function, unique for function)
+number3 := 4
+number3 = 15
+
+When we create a variable, go initializes in 0
+
+# --------------------------------------------------------------- #
+func main() {
+	stats = true
+	if stats==true{ <--- this is the normal if
+	if stats = false; stats==true{ <--- in this line we declare a new value inside the 'if'
+		fmt.Println(stats)
+	}else {
+		fmt.Println("It's false")
+	}
+}
