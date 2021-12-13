@@ -45,10 +45,14 @@ When we create a variable, go initializes in 0
 # --------------------------------------------------------------- #
 func main() {
 	stats = true
-	if stats==true{ <--- this is the normal if
-	if stats = false; stats==true{ <--- in this line we declare a new value inside the 'if'
+	if stats==true{ <--- this is the normal if ######
+	if stats = false; stats==true{ <--- in this line we declare a new value inside the 'if' ######
 		fmt.Println(stats)
 	}else {
 		fmt.Println("It's false")
 	}
 }
+
+# --------------------------------------------------------------- #
+Show and Input data by keyboard
+
